@@ -1,5 +1,8 @@
 # Bedrock WP Boilerplate
-Boilerplate for painless Bedrock WordPress project creation.
+Boilerplate for painless Bedrock WordPress + Timber + ACF project creation.
+
+## Requirements
+- [Composer](https://getcomposer.org/)
 
 ## Getting started
 
@@ -21,3 +24,6 @@ According with your host/database
  - .gitignore
 
 According with your host/theme
+
+### 5. Activate timber-starter-theme
+### 6. Activate plugins
