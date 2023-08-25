@@ -1,0 +1,49 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+!web/app/plugins/advanced-custom-fields-pro
+!web/app/plugins/sitepress-multilingual-cms
+!web/app/plugins/wpml-string-translation
+!web/app/plugins/acfml
+!web/app/plugins/wp-seo-multilingual
+web/app/mu-plugins/wp-migrate-db-pro-compatibility.php
+
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Generated assets
+web/app/themes/<your-theme>/static/css/app.css
+web/app/themes/<your-theme>/static/js/app.js
+
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+!.env.boilerplate.example
+
+# Composer
+/vendor
+
+# npm
+node_modules
+
+# WP-CLI
+wp-cli.local.yml
+
+.boilerplate
+
+.git
+.vscode
+.code-workspace
+
+# Mac related
+.DS_Store

@@ -1,0 +1,7 @@
+# Set web/ as project root
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.<your-domain>.test$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.<your-domain>.test$
+RewriteCond %{REQUEST_URI} !web/
+RewriteRule (.*) /web/$1 [L]
